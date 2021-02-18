@@ -1,0 +1,67 @@
+@font-face {
+    font-family: kabondregular;
+    src: url('../fonts/kabond_font-webfont.woff2') format('woff2'),
+         url('../fonts/kabond_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html{
+    background: linear-gradient(180deg, rgba(134, 248, 255, 0.35) 0%, rgba(173, 0, 255, 0.29) 100%);
+    }
+
+
+
+
+    .lyrics1{
+        font-family: kabondregular, helvetica;
+        font-size: 2rem;
+        color:#7000FF;
+        padding:6rem 8rem;
+    
+    }
+
+    .shape2{
+        width:10rem;
+        height:10rem;
+        border: 1px solid #ff009d;
+        box-sizing: border-box;
+        border-radius: 50%;
+        margin:2rem;
+        padding:4rem;
+        font-family: kabondregular, helvetica;
+        font-size: 2.5rem;
+        color: #00F0FF;
+        animation: backOutDown; 
+        animation-duration: 2s;
+    }
+
+    .flex{
+     display: flex;
+     justify-content: center;
+    }
+
+    .November2{
+        padding:2rem;
+        font-family: kabondregular, helvetica;
+        font-size: 1.5rem;
+        text-decoration:underline ;
+        color:#00F0FF;
+        animation:lightSpeedInRight; 
+        animation-duration: 2s;
+    }
+
+    .link{
+        margin:3rem;
+        padding:1rem;
+        font-family: kabondregular, helvetica;
+        font-size: 5rem;
+        background-color: #00F0FF;
+    }
+    
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }

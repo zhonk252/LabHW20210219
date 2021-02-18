@@ -1,0 +1,91 @@
+@font-face {
+    font-family: kabondregular;
+    src: url('../fonts/kabond_font-webfont.woff2') format('woff2'),
+         url('../fonts/kabond_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html{
+background: linear-gradient(180deg, rgba(134, 248, 255, 0.35) 0%, rgba(173, 0, 255, 0.29) 100%);
+}
+
+.lyrics1{
+    font-family: kabondregular, helvetica;
+    font-size: 2rem;
+    color:#7000FF;
+    padding:6rem 8rem;
+
+}
+
+.shape{
+    width:13.5rem;
+    height:10rem;
+    border: 1px solid #ff009d;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin:2rem;
+    padding:4rem;
+    font-family: kabondregular, helvetica;
+    font-size: 2.5rem;
+    color: #00F0FF;
+    animation: flash; 
+    animation-duration: 2s;
+
+}
+
+.November{
+    font-family: kabondregular, helvetica;
+    font-size: 1.5rem;
+    text-decoration:underline ;
+    color:#00F0FF;
+    display:flex;
+    justify-content: center;
+    animation: hinge; 
+    animation-duration: 2s;
+}
+
+.shape{
+    width:16rem;
+    height:10rem;
+    border: 1px solid #ff009d;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin:2rem;
+    padding:4rem;
+    animation:flash; 
+    animation-duration: 2s;
+}
+
+.November2{
+    font-family: kabondregular, helvetica;
+    font-size: 1.5rem;
+    text-decoration:underline ;
+    color:#ff0077;
+    display:flex;
+    justify-content: center;
+    padding:3rem;
+    animation-duration: 2s;
+
+}
+
+.flex{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.link{
+    margin:3rem;
+    padding:1rem;
+    font-family: kabondregular, helvetica;
+    font-size: 5rem;
+    background-color: #00F0FF;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
